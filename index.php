@@ -1,19 +1,18 @@
 <?php
 
-// $domain = 'http://localhost/travelmurahpurwokerto.web.id/';
-$domain = 'https://travelmurahpurwokerto.web.id/';
-$brand = 'Travel Murah Purwokerto';
+// $domain = 'http://localhost/abadi-trans.com/';
+$domain = 'https://abadi-trans.com/';
+$brand = 'Abadi Trans';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.png';
 $title = $brand . " Dengan Harga Murah dan terjangkau";
 $desc = $brand . " siap membantu perjalanan travel anda dengan harga murah dan terjangkau. Nikmati perjalanan nyaman dari Purwokerto ke berbagai kota tujuan bersama kami.";
-$telp = '0856-4227-3500';
+$telp = '0851-5082-1719';
 // $telp2 = '0857-9190-4615';
-$alamat = 'G6PW+V82 Teluk, Kabupaten Banyumas, Jawa Tengah';
+$alamat = 'VMW8+WW9 Rawa Burung, Tangerang Regency, Banten';
 
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3956.021605319528!2d109.2457778!3d-7.462861099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjcnNDYuMyJTIDEwOcKwMTQnNDQuOCJF!5e0!3m2!1sid!2sid!4v1764844325255!5m2!1sid!2sid';
-
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3967.2075825418174!2d106.66477077498936!3d-6.102724293883688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDYnMDkuOCJTIDEwNsKwNDAnMDIuNCJF!5e0!3m2!1sen!2sid!4v1764852577741!5m2!1sen!2sid';
 function res_telp($telp)
 {
   $telp = str_replace('-', '', $telp);
@@ -59,75 +58,41 @@ $menu = [
 
 
 $rute = [
-  "Travel Purwokerto Jakarta",
-  "Travel Purwokerto Bogor",
-  "Travel Purwokerto Tangerang",
-  "Travel Purwokerto Bekasi",
-  "Travel Purwokerto Bandung",
-  "Travel Purwokerto Cirebon",
-  "Travel Purwokerto Indramayu",
-  "Travel Purwokerto Tasikmalaya",
-  "Travel Purwokerto Garut",
-  "Travel Purwokerto Sumedang",
-  "Travel Purwokerto Banjarpatroman",
-  "Travel Purwokerto Tegal",
-  "Travel Purwokerto Pekalongan",
-  "Travel Purwokerto Semarang",
-  "Travel Purwokerto Solo",
-  "Travel Purwokerto Jogja",
-  "Travel Purwokerto Wonogiri",
-  "Travel Purwokerto Jepara",
-  "Travel Purwokerto Kudus",
-  "Travel Purwokerto Pati",
-  "Travel Purwokerto Rembang",
-  "Travel Purwokerto Blora",
-  "Travel Purwokerto Purwodadi",
-  "Travel Purwokerto Surabaya",
-  "Travel Purwokerto Malang",
-  "Travel Purwokerto Jember",
-  "Travel Purwokerto Madiun",
-  "Travel Purwokerto Ngawi",
-  "Travel Purwokerto Bojonegoro",
-  "Travel Purwokerto Lamongan",
-  "Travel Purwokerto Tulungagung",
-  "Travel Purwokerto Pacitan",
-  "Travel Purwokerto Blitar",
+  "Travel Indramayu Bandara",
+  "Travel Indramayu Jakarta",
+  "Travel Indramayu Depok",
+  "Travel Indramayu Tangerang",
+  "Travel Indramayu Bekasi",
 
+  "Travel Subang Bandara",
+  "Travel Subang Jakarta",
+  "Travel Subang Depok",
+  "Travel Subang Tangerang",
+  "Travel Subang Bekasi",
 
-  "Travel Jakarta Purwokerto",
-  "Travel Bogor Purwokerto",
-  "Travel Tangerang Purwokerto",
-  "Travel Bekasi Purwokerto",
-  "Travel Bandung Purwokerto",
-  "Travel Cirebon Purwokerto",
-  "Travel Indramayu Purwokerto",
-  "Travel Tasikmalaya Purwokerto",
-  "Travel Garut Purwokerto",
-  "Travel Sumedang Purwokerto",
-  "Travel Banjarpatroman Purwokerto",
-  "Travel Tegal Purwokerto",
-  "Travel Pekalongan Purwokerto",
-  "Travel Semarang Purwokerto",
-  "Travel Solo Purwokerto",
-  "Travel Jogja Purwokerto",
-  "Travel Wonogiri Purwokerto",
-  "Travel Jepara Purwokerto",
-  "Travel Kudus Purwokerto",
-  "Travel Pati Purwokerto",
-  "Travel Rembang Purwokerto",
-  "Travel Blora Purwokerto",
-  "Travel Purwodadi Purwokerto",
-  "Travel Surabaya Purwokerto",
-  "Travel Malang Purwokerto",
-  "Travel Jember Purwokerto",
-  "Travel Madiun Purwokerto",
-  "Travel Ngawi Purwokerto",
-  "Travel Bojonegoro Purwokerto",
-  "Travel Lamongan Purwokerto",
-  "Travel Tulungagung Purwokerto",
-  "Travel Pacitan Purwokerto",
-  "Travel Blitar Purwokerto",
+  "Travel Cirebon Bandara",
+  "Travel Cirebon Jakarta",
+  "Travel Cirebon Depok",
+  "Travel Cirebon Tangerang",
+  "Travel Cirebon Bekasi",
 
+  "Travel Bandara Indramayu",
+  "Travel Jakarta Indramayu",
+  "Travel Depok Indramayu",
+  "Travel Tangerang Indramayu",
+  "Travel Bekasi Indramayu",
+
+  "Travel Bandara Subang",
+  "Travel Jakarta Subang",
+  "Travel Depok Subang",
+  "Travel Tangerang Subang",
+  "Travel Bekasi Subang",
+
+  "Travel Bandara Cirebon",
+  "Travel Jakarta Cirebon",
+  "Travel Depok Cirebon",
+  "Travel Tangerang Cirebon",
+  "Travel Bekasi Cirebon",
 ];
 
 $kota = [
@@ -181,7 +146,7 @@ $galeri = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MMD5JHQX');
+    })(window, document, 'script', 'dataLayer', 'GTM-TPSL37CS');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -222,9 +187,10 @@ $galeri = [
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMD5JHQX"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPSL37CS"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
   <header class="">
     <div class="container ">
       <div class="flex justify-between">
@@ -346,7 +312,7 @@ $galeri = [
     <section class="container">
       <div
         style="background-image: url(./src/img/background-hero-section.jpg)"
-        class="py-10 lg:py-7 bg-fixed bg-cover bg-center rounded-lg relative">
+        class="py-10 lg:py-7 bg-[bottom_center] bg-[size:100%] rounded-lg relative">
         <div
           class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(15_23_42_/_0.5),rgb(51_65_85_/_0.7))] from-0% via-90% to-100%">
         </div>
@@ -361,7 +327,7 @@ $galeri = [
               <a
                 href="<?= $link_whatsapp ?>"
                 target="_blank"
-                class="flex gap-2 px-5 py-2 border-2 border-primary hover:border-primary-hover bg-primary hover:bg-primary-hover text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
+                class="flex gap-2 px-5 py-2 border-2 border-white hover:border-primary-hover bg-primary hover:bg-primary-hover text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -556,7 +522,7 @@ $galeri = [
                   <h3 class="!line-clamp-1 block whitespace-nowrap">
                     <?= $item ?>
                   </h3>
-                  <p class="text-sm opacity-80 my-2 !line-clamp-3">Rekomendasi <?= $item ?> pp dengan sistem door to door dan perjalanan via tol.</p>
+                  <p class="text-sm opacity-80 my-2 !line-clamp-4">Pesan <strong><?= $item ?></strong> pp dengan sistem door to door dan perjalanan via tol dan diskon s/d 10%.</p>
                   <a target="_blank" href="<?= $link_whatsapp ?>" class="bg-primary hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Pesan Travel</a>
                 </div>
               </div>
@@ -581,7 +547,7 @@ $galeri = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
               <p class="desc !text-slate-300 !mb-5">
-                <strong><?= $brand ?></strong> akan membantu anda melakukan perjalanan <a href="https://jasatravel.web.id/rute-travel/dari-purwokerto/ke-dki-jakarta/9272/31" class="underline" target="_blank">Travel Purwokerto Jakarta</a> dan <a href="https://jasatravel.web.id/rute-travel/dari-purwokerto/ke-kota-semarang/9272/3374" class="underline" target="_blank">Travel Purwokerto Semarang</a> juga pulang pergi, tentunya dengan harga murah dan terjangkau. Pelayanan yang diberikan sangat memuaskan. Selain travel reguler, kami juga menawarkan berbagai jasa sebagai berikut:
+                <strong><?= $brand ?></strong> akan membantu anda melakukan perjalanan <a href="https://jasatravel.web.id/rute-travel/dari-kabupaten-indramayu/ke-bekasi-barat/3212/327502" class="underline" target="_blank">Travel Indarmayu Bekasi</a> dan <a href="https://jasatravel.web.id/rute-travel/dari-purwokerto/ke-kota-semarang/9272/3374" class="underline" target="_blank">Travel Indramayu Jakarta</a> juga pulang pergi, tentunya dengan harga murah dan terjangkau. Pelayanan yang diberikan sangat memuaskan. Selain travel reguler, kami juga menawarkan berbagai jasa sebagai berikut:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Carter Regular</li>

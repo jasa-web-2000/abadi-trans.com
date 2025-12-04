@@ -14,8 +14,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        'primary': '#2b6c49',
-        'primary-hover': '#a3c8a9',
+        'primary': '#1b2447',
+        'primary-hover': '#e4792b',
       }
     },
   },
