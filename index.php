@@ -178,11 +178,11 @@ $galeri = [
   <link rel="canonical" href="<?= $domain ?>" />
 
   <link
-    href="./src/css/output.css"
+    href="<?= $domain ?>/src/css/output.css"
     rel="stylesheet" />
   <link
     rel="stylesheet"
-    href="./src/css/swiper-bundle.min.css" />
+    href="<?= $domain ?>/src/css/swiper-bundle.min.css" />
 </head>
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
@@ -311,7 +311,7 @@ $galeri = [
     <!-- Hero Section -->
     <section class="container">
       <div
-        style="background-image: url(./src/img/background-hero-section.jpg)"
+        style="background-image: url(<?= $domain ?>/src/img/background-hero-section.jpg)"
         class="py-10 lg:py-7 bg-[bottom_center] bg-[size:100%] rounded-lg relative">
         <div
           class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(15_23_42_/_0.5),rgb(51_65_85_/_0.7))] from-0% via-90% to-100%">
@@ -512,7 +512,7 @@ $galeri = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="./src/img/rute.jpg"
+                  src="<?= $domain ?>/src/img/rute.jpg"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -758,38 +758,20 @@ $galeri = [
               <div class="swiper-slide">
                 <div class="itemSlider">
                   <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
+                    <?php for ($i = 0; $i < 5; $i++) : ?>
+                      <img
+                        src="<?= $domain ?>src/img/star.png"
+                        width="16"
+                        height="16"
+                        alt="bintang" />
+                    <?php endfor; ?>
                   </div>
                   <p class="testimoni">
                     Saya menggunakan jasa Travel <?= $brand ?> untuk rute <?= $rute[0] ?>. Pelayanan sangat memuaskan, armada nyaman, tepat waktu, dan staf ramah. Pengalaman perjalanan yang menyenangkan dan saya sangat puas!
                   </p>
                   <div class="user-testimoni">
                     <img
-                      src="./src/img/group.png"
+                      src="<?= $domain ?>src/img/group.png"
                       alt="testimoni" />
                     <div>
                       <p>Dion Zebua</p>
@@ -801,38 +783,20 @@ $galeri = [
               <div class="swiper-slide">
                 <div class="itemSlider">
                   <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
+                    <?php for ($i = 0; $i < 5; $i++) : ?>
+                      <img
+                        src="<?= $domain ?>src/img/star.png"
+                        width="16"
+                        height="16"
+                        alt="bintang" />
+                    <?php endfor; ?>
                   </div>
                   <p class="testimoni">
                     Pelayanan luar biasa, mobil sangat nyaman, dapat snack, dan supirnya ramah. Terima kasih banyak Mas Sopir, semoga selalu sukses dan terus memberikan pelayanan terbaik!
                   </p>
                   <div class="user-testimoni">
                     <img
-                      src="./src/img/group.png"
+                      src="<?= $domain ?>src/img/group.png"
                       alt="testimoni" />
                     <div>
                       <p>Rina Pratiwi</p>
@@ -844,38 +808,20 @@ $galeri = [
               <div class="swiper-slide">
                 <div class="itemSlider">
                   <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
+                    <?php for ($i = 0; $i < 5; $i++) : ?>
+                      <img
+                        src="<?= $domain ?>src/img/star.png"
+                        width="16"
+                        height="16"
+                        alt="bintang" />
+                    <?php endfor; ?>
                   </div>
                   <p class="testimoni">
                     Perjalanan sangat nyaman, cara menyetir driver sangat baik, dan sikapnya sangat ramah. Pengalaman yang menyenangkan dan membuat perjalanan semakin menyenangkan!
                   </p>
                   <div class="user-testimoni">
                     <img
-                      src="./src/img/group.png"
+                      src="<?= $domain ?>src/img/group.png"
                       alt="testimoni" />
                     <div>
                       <p>Dewi Anggraini</p>
@@ -887,38 +833,20 @@ $galeri = [
               <div class="swiper-slide">
                 <div class="itemSlider">
                   <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
+                    <?php for ($i = 0; $i < 5; $i++) : ?>
+                      <img
+                        src="<?= $domain ?>src/img/star.png"
+                        width="16"
+                        height="16"
+                        alt="bintang" />
+                    <?php endfor; ?>
                   </div>
                   <p class="testimoni">
                     Sudah dua kali menggunakan travel ini, pelayanan admin sangat bagus dan respons cepat. Penjemputan selalu tepat waktu sesuai jadwal, mobilnya bersih dan nyaman, driver ramah, dan snack tersedia di kursi.
                   </p>
                   <div class="user-testimoni">
                     <img
-                      src="./src/img/group.png"
+                      src="<?= $domain ?>src/img/group.png"
                       alt="testimoni" />
                     <div>
                       <p>Nina Sari</p>
@@ -930,38 +858,20 @@ $galeri = [
               <div class="swiper-slide">
                 <div class="itemSlider">
                   <div class="">
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
-                    <img
-                      src="./src/img/star.png"
-                      width="16"
-                      height="16"
-                      alt="bintang" />
+                    <?php for ($i = 0; $i < 5; $i++) : ?>
+                      <img
+                        src="<?= $domain ?>src/img/star.png"
+                        width="16"
+                        height="16"
+                        alt="bintang" />
+                    <?php endfor; ?>
                   </div>
                   <p class="testimoni">
                     Snack tersedia, driver sangat ramah, perjalanan tepat waktu sesuai jadwal, harga sesuai dengan kesepakatan, dan biaya tol sudah termasuk. Layanan yang sangat memuaskan dan profesional!
                   </p>
                   <div class="user-testimoni">
                     <img
-                      src="./src/img/group.png"
+                      src="<?= $domain ?>src/img/group.png"
                       alt="testimoni" />
                     <div>
                       <p>Joko</p>
@@ -1105,7 +1015,7 @@ $galeri = [
     </p>
   </footer>
 
-  <script src="./src/js/swiper-bundle.min.js"></script>
+  <script src="<?= $domain ?>src/js/swiper-bundle.min.js"></script>
 
   <script>
     var swiper = new Swiper(".mySwiper", {
@@ -1138,7 +1048,7 @@ $galeri = [
     });
   </script>
 
-  <script src="./src/js/script.js"></script>
+  <script src="<?= $domain ?>src/js/script.js"></script>
   <script>
     const bookingForm = document.querySelector('#bookingForm')
 
