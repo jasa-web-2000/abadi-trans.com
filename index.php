@@ -146,7 +146,7 @@ $galeri = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TPSL37CS');
+    })(window, document, 'script', 'dataLayer', 'GTM-PL2M3XR7');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -187,7 +187,7 @@ $galeri = [
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPSL37CS"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL2M3XR7"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
